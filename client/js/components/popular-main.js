@@ -37,16 +37,19 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <ReactRouter.Link to={'/PopularCommented'}>
             <div className="tabs-popular tabs-one-popular tabs-img-1">
               <div className="blog-pic-title">one</div>
+                <div className="blog-pic-summary">Building rich JavaScript applications that bring...</div>
             </div>
           </ReactRouter.Link>
           <ReactRouter.Link to={'/PopularShared'}>
             <div className="tabs-popular tabs-two-popular tabs-img-2">
               <div className="blog-pic-title">two</div>
+                <div className="blog-pic-summary">Building rich JavaScript applications that bring...</div>
             </div>
           </ReactRouter.Link>
           <ReactRouter.Link to={'/PopularViewed'}>
             <div className="tabs-popular tabs-img-3">
               <div className="blog-pic-title">three</div>
+                <div className="blog-pic-summary">Building rich JavaScript applications that bring...</div>
             </div>
           </ReactRouter.Link>
           <div className="tabs-bottom-popular tabs-one-popular">

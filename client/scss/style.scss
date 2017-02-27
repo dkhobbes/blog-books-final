@@ -1,6 +1,5 @@
 @import 'reset';
-
-
+@import 'responsive';
 
 #eyebrow-nav {
   height: 40px;
@@ -297,9 +296,24 @@ footer p {
   transition: width 2s;
 }
 
-.blog-pic-title:hover {
-  height: 45px;
-  width: 60px;
+// .blog-pic-title:hover {
+//   height: 45px;
+//   width: 60px;
+// }
+
+.blog-pic-summary {
+  color: transparent;
+  text-align: center;
+  padding-left: 120px;
+}
+
+.blog-pic-summary:hover {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(255,255,255,0.3);
+  padding-right: 40px;
+
 }
 
 .blog-post {

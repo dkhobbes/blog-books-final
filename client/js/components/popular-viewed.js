@@ -31,11 +31,13 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <ReactRouter.Link to={'/PostOne'}>
             <div className="tabs tabs-one tabs-img-1">
               <div className="blog-pic-title">one</div>
+              <div className="blog-pic-summary">Building rich JavaScript applications that bring a desktop experience to the Web requires...</div>
             </div>
           </ReactRouter.Link>
           <ReactRouter.Link to={'/PostTwo'}>
             <div className="tabs tabs-img-2">
               <div className="blog-pic-title">two</div>
+              <div className="blog-pic-summary">Building rich JavaScript applications that bring a desktop experience to the Web requires...</div>
             </div>
           </ReactRouter.Link>
           <div className="tabs-bottom tabs-one">
@@ -50,11 +52,13 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <ReactRouter.Link to={'/PostThree'}>
             <div className="tabs tabs-one tabs-img-3">
               <div className="blog-pic-title">three</div>
+              <div className="blog-pic-summary">Building rich JavaScript applications that bring a desktop experience to the Web requires...</div>
             </div>
           </ReactRouter.Link>
           <ReactRouter.Link to={'/PostFour'}>
             <div className="tabs tabs-img-4">
               <div className="blog-pic-title">four</div>
+              <div className="blog-pic-summary">Building rich JavaScript applications that bring a desktop experience to the Web requires...</div>
             </div>
           </ReactRouter.Link>
           <div className="tabs-bottom tabs-one">
@@ -69,11 +73,13 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <ReactRouter.Link to={'/PostFive'}>
             <div className="tabs tabs-one tabs-img-5">
               <div className="blog-pic-title">five</div>
+              <div className="blog-pic-summary">Building rich JavaScript applications that bring a desktop experience to the Web requires...</div>
             </div>
           </ReactRouter.Link>
           <ReactRouter.Link to={'/PostSix'}>
             <div className="tabs tabs-img-6">
               <div className="blog-pic-title">six</div>
+              <div className="blog-pic-summary">Building rich JavaScript applications that bring a desktop experience to the Web requires...</div>
             </div>
           </ReactRouter.Link>
           <div className="tabs-bottom tabs-one">
@@ -88,11 +94,13 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <ReactRouter.Link to={'/PostThree'}>
             <div className="tabs tabs-one tabs-img-3">
               <div className="blog-pic-title">three</div>
+              <div className="blog-pic-summary">Building rich JavaScript applications that bring a desktop experience to the Web requires...</div>
             </div>
           </ReactRouter.Link>
           <ReactRouter.Link to={'/PostFour'}>
             <div className="tabs tabs-img-4">
               <div className="blog-pic-title">four</div>
+              <div className="blog-pic-summary">Building rich JavaScript applications that bring a desktop experience to the Web requires...</div>
             </div>
           </ReactRouter.Link>
           <div className="tabs-bottom tabs-one">
@@ -107,11 +115,13 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <ReactRouter.Link to={'/PostFive'}>
             <div className="tabs tabs-one tabs-img-5">
               <div className="blog-pic-title">five</div>
+              <div className="blog-pic-summary">Building rich JavaScript applications that bring a desktop experience to the Web requires...</div>
             </div>
           </ReactRouter.Link>
           <ReactRouter.Link to={'/PostSix'}>
             <div className="tabs tabs-img-6">
               <div className="blog-pic-title">six</div>
+              <div className="blog-pic-summary">Building rich JavaScript applications that bring a desktop experience to the Web requires...</div>
             </div>
           </ReactRouter.Link>
           <div className="tabs-bottom tabs-one">

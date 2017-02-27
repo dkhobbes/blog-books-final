@@ -45,6 +45,42 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@media only screen and (max-width: 800px) {
+  .tabs {
+    float: left;
+    width: 80%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 25px 25px 0 0; }
+  .tabs-popular {
+    float: left;
+    width: 80%;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 25px 25px 0 0; }
+  .tabs-bottom-popular {
+    float: left;
+    width: 80%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 0 0 25px 25px;
+    margin-bottom: 25px;
+    background-color: #f9eddf; }
+  .tabs-one-popular {
+    margin-left: 10%; }
+  #size-add {
+    font-size: 36px; }
+  .tabs-one {
+    margin-left: 10%; }
+  .tabs-bottom {
+    float: left;
+    width: 80%;
+    height: 50px;
+    border: 1px solid black;
+    border-radius: 0 0 25px 25px;
+    margin-bottom: 25px;
+    background-color: #f9eddf; } }
+
 #eyebrow-nav {
   height: 40px;
   max-width: 100%;
@@ -295,9 +331,17 @@ footer p {
   /* For Safari 3.1 to 6.0 */
   transition: width 2s; }
 
-.blog-pic-title:hover {
-  height: 45px;
-  width: 60px; }
+.blog-pic-summary {
+  color: transparent;
+  text-align: center;
+  padding-left: 120px; }
+
+.blog-pic-summary:hover {
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: rgba(255, 255, 255, 0.3);
+  padding-right: 40px; }
 
 .blog-post {
   width: 60%;
