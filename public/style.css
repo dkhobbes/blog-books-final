@@ -378,7 +378,24 @@ footer p {
 
 @media only screen and (max-width: 720px) {
   #archive-main {
-    width: 54%; } }
+    width: 54%; }
+  #archive-main h1 {
+    float: none; }
+  #archive-main-list {
+    margin-left: 40%;
+    margin-bottom: 100px; }
+  #newsletter-main {
+    margin-top: 50px; }
+  #newsletter-main h1, input, button {
+    margin-top: 100px;
+    float: none;
+    padding: 0 10px 0 10px; }
+  #newsletter-main button, input {
+    margin: 0 auto;
+    margin-left: 39%;
+    margin-top: 10px; }
+  #newsletter-main h1 {
+    padding-top: 50px; } }
 
 @media only screen and (max-width: 620px) {
   #main-nav {
@@ -399,7 +416,12 @@ footer p {
     margin-bottom: 25px; }
   #read-more-main {
     margin-top: 180px; }
-  #archive-main {
-    width: 44%; } }
+  #archive-main h1 {
+    float: none; }
+  #archive-main-list {
+    margin-left: 40%;
+    margin-bottom: 100px; }
+  #newsletter-main {
+    margin-top: 130px; } }
 
 /*# sourceMappingURL=style.css.map */
