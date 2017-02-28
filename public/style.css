@@ -368,7 +368,17 @@ footer p {
 @media only screen and (max-width: 1000px) {
   .blog-pic-summary:hover {
     color: transparent;
-    background-color: rgba(255, 255, 255, 0); } }
+    background-color: rgba(255, 255, 255, 0); }
+  #archive-main {
+    width: 70%; } }
+
+@media only screen and (max-width: 800px) {
+  #archive-main {
+    width: 64%; } }
+
+@media only screen and (max-width: 720px) {
+  #archive-main {
+    width: 54%; } }
 
 @media only screen and (max-width: 620px) {
   #main-nav {
@@ -388,6 +398,8 @@ footer p {
     min-height: 80px;
     margin-bottom: 25px; }
   #read-more-main {
-    margin-top: 180px; } }
+    margin-top: 180px; }
+  #archive-main {
+    width: 44%; } }
 
 /*# sourceMappingURL=style.css.map */
