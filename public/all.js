@@ -454,7 +454,7 @@ if (window.BlogTest === undefined) {
           React.createElement("div", { id: "spacing" }),
           React.createElement(
             "footer",
-            null,
+            { className: "tenLinks" },
             React.createElement(
               "p",
               null,
@@ -2275,7 +2275,7 @@ if (window.BlogTest === undefined) {
           React.createElement("div", { id: "spacing" }),
           React.createElement(
             "footer",
-            null,
+            { className: "tenLinks" },
             React.createElement(
               "p",
               null,
@@ -2972,7 +2972,7 @@ if (window.BlogTest === undefined) {
           React.createElement("div", { id: "spacing" }),
           React.createElement(
             "footer",
-            null,
+            { className: "tenLinks" },
             React.createElement(
               "p",
               null,
@@ -3444,7 +3444,7 @@ if (window.BlogTest === undefined) {
           React.createElement("div", { id: "spacing" }),
           React.createElement(
             "footer",
-            null,
+            { className: "tenLinks" },
             React.createElement(
               "p",
               null,

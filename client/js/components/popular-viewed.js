@@ -132,7 +132,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </div>
         </section>
         <div id="spacing"></div>
-        <footer>
+        <footer className="tenLinks">
           <p>© copyright 2017 BOOK BLOG</p>
         </footer>
       </div>

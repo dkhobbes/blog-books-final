@@ -395,7 +395,9 @@ footer p {
     margin-left: 39%;
     margin-top: 10px; }
   #newsletter-main h1 {
-    padding-top: 50px; } }
+    padding-top: 50px; }
+  .tenLinks {
+    margin-top: 150px; } }
 
 @media only screen and (max-width: 620px) {
   #main-nav {
