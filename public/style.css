@@ -336,13 +336,6 @@ footer p {
   text-align: center;
   padding-left: 120px; }
 
-.blog-pic-summary:hover {
-  color: black;
-  font-size: 18px;
-  font-weight: bold;
-  background-color: rgba(255, 255, 255, 0.3);
-  padding-right: 40px; }
-
 .blog-post {
   width: 60%;
   margin-left: 20%; }
@@ -366,9 +359,6 @@ footer p {
   color: red; }
 
 @media only screen and (max-width: 1000px) {
-  .blog-pic-summary:hover {
-    color: transparent;
-    background-color: rgba(255, 255, 255, 0); }
   #archive-main {
     width: 70%; } }
 
