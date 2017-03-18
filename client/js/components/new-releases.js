@@ -21,9 +21,8 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <li><ReactRouter.Link to={'/NewReleases'}>New Releases</ReactRouter.Link></li>
           <li><ReactRouter.Link to={'/PopularMain'}>Popular</ReactRouter.Link></li>
           <li><ReactRouter.Link to={'/Categories'}>Categories</ReactRouter.Link></li>
-          <li>Recent Posts</li>
+          <li><ReactRouter.Link to={'/RecentPosts'}>Recent Posts</ReactRouter.Link></li>
           <li><ReactRouter.Link to={'/Author'}>Author interviews</ReactRouter.Link></li>
-
           </ul>
           </div>
         </header>

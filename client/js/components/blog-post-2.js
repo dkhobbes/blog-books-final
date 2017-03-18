@@ -7,25 +7,25 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
 
     render(){
       return <div>
-          <header>
-            <div id="eyebrow-nav">
-            <ul>
-              <li><ReactRouter.Link to={'/About'}>About</ReactRouter.Link></li>
-              <li>My books</li>
-              <li><ReactRouter.Link to={'/'}>Home</ReactRouter.Link></li>
-            </ul>
+        <header>
+          <div id="eyebrow-nav">
+          <ul>
+            <li><ReactRouter.Link to={'/About'}>About</ReactRouter.Link></li>
+            <li><ReactRouter.Link to={'/MyBooks'}>My books</ReactRouter.Link></li>
+            <li><ReactRouter.Link to={'/'}>Home</ReactRouter.Link></li>
+          </ul>
+        </div>
+        <div id="main-nav">
+          <div className="logo"></div>
+          <ul>
+          <li><ReactRouter.Link to={'/NewReleases'}>New Releases</ReactRouter.Link></li>
+          <li><ReactRouter.Link to={'/PopularMain'}>Popular</ReactRouter.Link></li>
+          <li><ReactRouter.Link to={'/Categories'}>Categories</ReactRouter.Link></li>
+          <li><ReactRouter.Link to={'/RecentPosts'}>Recent Posts</ReactRouter.Link></li>
+          <li><ReactRouter.Link to={'/Author'}>Author interviews</ReactRouter.Link></li>
+          </ul>
           </div>
-          <div id="main-nav">
-            <div className="logo"></div>
-            <ul>
-            <li>New releases</li>
-            <li><ReactRouter.Link to={'/PopularMain'}>Popular</ReactRouter.Link></li>
-            <li>Categories</li>
-            <li>Recent Posts</li>
-            <li>Author Interviews</li>
-            </ul>
-            </div>
-          </header>
+        </header>
 
           <div className="other-pics tabs-img-2">
             <div id="home-pic-title">Book Blog</div>
