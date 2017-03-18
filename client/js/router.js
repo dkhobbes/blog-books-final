@@ -23,6 +23,9 @@ var router = <Router history={ReactRouter.hashHistory}>
       <Route path="/About" component={BlogTest.AboutComponent} />
       <Route path="/Author" component={BlogTest.AuthorComponent} />
       <Route path="/Categories" component={BlogTest.CategoriesComponent} />
+      <Route path="/MyBooks" component={BlogTest.MyBooksComponent} />
+      <Route path="/NewReleases" component={BlogTest.NewReleasesComponent} />
+
 
     </Router>;
 
