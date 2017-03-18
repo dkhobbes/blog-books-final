@@ -10,7 +10,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
       <header>
         <div id="eyebrow-nav">
         <ul>
-          <li>About</li>
+          <li><ReactRouter.Link to={'/About'}>About</ReactRouter.Link></li>
           <li>My books</li>
           <li><ReactRouter.Link to={'/'}>Home</ReactRouter.Link></li>
         </ul>

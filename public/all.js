@@ -124,7 +124,7 @@ if (window.BlogTest === undefined) {
 
   BlogTest.AboutComponent = AboutComponent;
 })();
-"use strict";
+'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -148,103 +148,107 @@ if (window.BlogTest === undefined) {
     }
 
     _createClass(ArchiveComponent, [{
-      key: "render",
+      key: 'render',
       value: function render() {
         return React.createElement(
-          "div",
+          'div',
           null,
           React.createElement(
-            "header",
+            'header',
             null,
             React.createElement(
-              "div",
-              { id: "eyebrow-nav" },
+              'div',
+              { id: 'eyebrow-nav' },
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "About"
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/About' },
+                    'About'
+                  )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "My books"
+                  'My books'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/' },
-                    "Home"
+                    'Home'
                   )
                 )
               )
             ),
             React.createElement(
-              "div",
-              { id: "main-nav" },
-              React.createElement("div", { className: "logo" }),
+              'div',
+              { id: 'main-nav' },
+              React.createElement('div', { className: 'logo' }),
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "New releases"
+                  'New releases'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/PopularMain' },
-                    "Popular"
+                    'Popular'
                   )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Categories"
+                  'Categories'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Recent Posts"
+                  'Recent Posts'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Author Interviews"
+                  'Author Interviews'
                 )
               )
             )
           ),
           React.createElement(
-            "div",
-            { id: "archive-title" },
-            "Full list of Archives"
+            'div',
+            { id: 'archive-title' },
+            'Full list of Archives'
           ),
           React.createElement(
-            "section",
+            'section',
             null,
             React.createElement(
               ReactRouter.Link,
               { to: '/PostOne' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-one tabs-img-1" },
+                'div',
+                { className: 'tabs tabs-one tabs-img-1' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "one"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'one'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
@@ -252,69 +256,69 @@ if (window.BlogTest === undefined) {
               ReactRouter.Link,
               { to: '/PostTwo' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-img-2" },
+                'div',
+                { className: 'tabs tabs-img-2' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "two"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'two'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom tabs-one" },
+              'div',
+              { className: 'tabs-bottom tabs-one' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom" },
+              'div',
+              { className: 'tabs-bottom' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             )
           ),
           React.createElement(
-            "section",
+            'section',
             null,
             React.createElement(
               ReactRouter.Link,
               { to: '/PostThree' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-one tabs-img-3" },
+                'div',
+                { className: 'tabs tabs-one tabs-img-3' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "three"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'three'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
@@ -322,69 +326,69 @@ if (window.BlogTest === undefined) {
               ReactRouter.Link,
               { to: '/PostFour' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-img-4" },
+                'div',
+                { className: 'tabs tabs-img-4' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "four"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'four'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom tabs-one" },
+              'div',
+              { className: 'tabs-bottom tabs-one' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom" },
+              'div',
+              { className: 'tabs-bottom' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             )
           ),
           React.createElement(
-            "section",
+            'section',
             null,
             React.createElement(
               ReactRouter.Link,
               { to: '/PostFive' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-one tabs-img-5" },
+                'div',
+                { className: 'tabs tabs-one tabs-img-5' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "five"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'five'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
@@ -392,69 +396,69 @@ if (window.BlogTest === undefined) {
               ReactRouter.Link,
               { to: '/PostSix' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-img-6" },
+                'div',
+                { className: 'tabs tabs-img-6' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "six"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'six'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom tabs-one" },
+              'div',
+              { className: 'tabs-bottom tabs-one' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom" },
+              'div',
+              { className: 'tabs-bottom' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             )
           ),
           React.createElement(
-            "section",
+            'section',
             null,
             React.createElement(
               ReactRouter.Link,
               { to: '/PostThree' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-one tabs-img-3" },
+                'div',
+                { className: 'tabs tabs-one tabs-img-3' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "three"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'three'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
@@ -462,69 +466,69 @@ if (window.BlogTest === undefined) {
               ReactRouter.Link,
               { to: '/PostFour' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-img-4" },
+                'div',
+                { className: 'tabs tabs-img-4' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "four"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'four'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom tabs-one" },
+              'div',
+              { className: 'tabs-bottom tabs-one' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom" },
+              'div',
+              { className: 'tabs-bottom' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             )
           ),
           React.createElement(
-            "section",
+            'section',
             null,
             React.createElement(
               ReactRouter.Link,
               { to: '/PostFive' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-one tabs-img-5" },
+                'div',
+                { className: 'tabs tabs-one tabs-img-5' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "five"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'five'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
@@ -532,59 +536,59 @@ if (window.BlogTest === undefined) {
               ReactRouter.Link,
               { to: '/PostSix' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-img-6" },
+                'div',
+                { className: 'tabs tabs-img-6' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "six"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'six'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom tabs-one" },
+              'div',
+              { className: 'tabs-bottom tabs-one' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom" },
+              'div',
+              { className: 'tabs-bottom' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             )
           ),
-          React.createElement("div", { id: "spacing" }),
+          React.createElement('div', { id: 'spacing' }),
           React.createElement(
-            "footer",
-            { className: "tenLinks" },
+            'footer',
+            { className: 'tenLinks' },
             React.createElement(
-              "p",
+              'p',
               null,
-              "\xA9 copyright 2017 BOOK BLOG"
+              '\xA9 copyright 2017 BOOK BLOG'
             )
           )
         );
@@ -597,7 +601,7 @@ if (window.BlogTest === undefined) {
   BlogTest.ArchiveComponent = ArchiveComponent;
 })();
 "use strict";
-"use strict";
+'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -621,125 +625,129 @@ if (window.BlogTest === undefined) {
     }
 
     _createClass(BlogPostOneComponent, [{
-      key: "render",
+      key: 'render',
       value: function render() {
         return React.createElement(
-          "div",
+          'div',
           null,
           React.createElement(
-            "header",
+            'header',
             null,
             React.createElement(
-              "div",
-              { id: "eyebrow-nav" },
+              'div',
+              { id: 'eyebrow-nav' },
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "About"
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/About' },
+                    'About'
+                  )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "My books"
+                  'My books'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/' },
-                    "Home"
+                    'Home'
                   )
                 )
               )
             ),
             React.createElement(
-              "div",
-              { id: "main-nav" },
-              React.createElement("div", { className: "logo" }),
+              'div',
+              { id: 'main-nav' },
+              React.createElement('div', { className: 'logo' }),
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "New releases"
+                  'New releases'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/PopularMain' },
-                    "Popular"
+                    'Popular'
                   )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Categories"
+                  'Categories'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Recent Posts"
+                  'Recent Posts'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Author Interviews"
+                  'Author Interviews'
                 )
               )
             )
           ),
           React.createElement(
-            "div",
-            { className: "other-pics tabs-img-1" },
+            'div',
+            { className: 'other-pics tabs-img-1' },
             React.createElement(
-              "div",
-              { id: "home-pic-title" },
-              "Book Blog"
+              'div',
+              { id: 'home-pic-title' },
+              'Book Blog'
             )
           ),
           React.createElement(
-            "div",
-            { className: "blog-post" },
+            'div',
+            { className: 'blog-post' },
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "Blog Post One"
+              'Blog Post One'
             ),
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "JavaScript Web Applications"
+              'JavaScript Web Applications'
             ),
             React.createElement(
-              "p",
+              'p',
               null,
-              "Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues."
+              'Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues.'
             ),
             React.createElement(
-              "p",
+              'p',
               null,
-              "Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience."
+              'Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience.'
             ),
             React.createElement(
-              "p",
-              { className: "blog-post-end" },
-              "Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification"
+              'p',
+              { className: 'blog-post-end' },
+              'Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification'
             )
           ),
           React.createElement(
-            "footer",
+            'footer',
             null,
             React.createElement(
-              "p",
+              'p',
               null,
-              "\xA9 copyright 2017 BOOK BLOG"
+              '\xA9 copyright 2017 BOOK BLOG'
             )
           )
         );
@@ -751,7 +759,7 @@ if (window.BlogTest === undefined) {
 
   BlogTest.BlogPostOneComponent = BlogPostOneComponent;
 })();
-"use strict";
+'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -775,125 +783,129 @@ if (window.BlogTest === undefined) {
     }
 
     _createClass(BlogPostTwoComponent, [{
-      key: "render",
+      key: 'render',
       value: function render() {
         return React.createElement(
-          "div",
+          'div',
           null,
           React.createElement(
-            "header",
+            'header',
             null,
             React.createElement(
-              "div",
-              { id: "eyebrow-nav" },
+              'div',
+              { id: 'eyebrow-nav' },
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "About"
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/About' },
+                    'About'
+                  )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "My books"
+                  'My books'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/' },
-                    "Home"
+                    'Home'
                   )
                 )
               )
             ),
             React.createElement(
-              "div",
-              { id: "main-nav" },
-              React.createElement("div", { className: "logo" }),
+              'div',
+              { id: 'main-nav' },
+              React.createElement('div', { className: 'logo' }),
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "New releases"
+                  'New releases'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/PopularMain' },
-                    "Popular"
+                    'Popular'
                   )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Categories"
+                  'Categories'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Recent Posts"
+                  'Recent Posts'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Author Interviews"
+                  'Author Interviews'
                 )
               )
             )
           ),
           React.createElement(
-            "div",
-            { className: "other-pics tabs-img-2" },
+            'div',
+            { className: 'other-pics tabs-img-2' },
             React.createElement(
-              "div",
-              { id: "home-pic-title" },
-              "Book Blog"
+              'div',
+              { id: 'home-pic-title' },
+              'Book Blog'
             )
           ),
           React.createElement(
-            "div",
-            { className: "blog-post" },
+            'div',
+            { className: 'blog-post' },
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "Blog Post Two"
+              'Blog Post Two'
             ),
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "JavaScript Web Applications"
+              'JavaScript Web Applications'
             ),
             React.createElement(
-              "p",
+              'p',
               null,
-              "Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues."
+              'Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues.'
             ),
             React.createElement(
-              "p",
+              'p',
               null,
-              "Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience."
+              'Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience.'
             ),
             React.createElement(
-              "p",
-              { className: "blog-post-end" },
-              "Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification"
+              'p',
+              { className: 'blog-post-end' },
+              'Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification'
             )
           ),
           React.createElement(
-            "footer",
+            'footer',
             null,
             React.createElement(
-              "p",
+              'p',
               null,
-              "\xA9 copyright 2017 BOOK BLOG"
+              '\xA9 copyright 2017 BOOK BLOG'
             )
           )
         );
@@ -905,7 +917,7 @@ if (window.BlogTest === undefined) {
 
   BlogTest.BlogPostTwoComponent = BlogPostTwoComponent;
 })();
-"use strict";
+'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -929,125 +941,129 @@ if (window.BlogTest === undefined) {
     }
 
     _createClass(BlogPostThreeComponent, [{
-      key: "render",
+      key: 'render',
       value: function render() {
         return React.createElement(
-          "div",
+          'div',
           null,
           React.createElement(
-            "header",
+            'header',
             null,
             React.createElement(
-              "div",
-              { id: "eyebrow-nav" },
+              'div',
+              { id: 'eyebrow-nav' },
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "About"
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/About' },
+                    'About'
+                  )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "My books"
+                  'My books'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/' },
-                    "Home"
+                    'Home'
                   )
                 )
               )
             ),
             React.createElement(
-              "div",
-              { id: "main-nav" },
-              React.createElement("div", { className: "logo" }),
+              'div',
+              { id: 'main-nav' },
+              React.createElement('div', { className: 'logo' }),
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "New releases"
+                  'New releases'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/PopularMain' },
-                    "Popular"
+                    'Popular'
                   )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Categories"
+                  'Categories'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Recent Posts"
+                  'Recent Posts'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Author Interviews"
+                  'Author Interviews'
                 )
               )
             )
           ),
           React.createElement(
-            "div",
-            { className: "other-pics tabs-img-3" },
+            'div',
+            { className: 'other-pics tabs-img-3' },
             React.createElement(
-              "div",
-              { id: "home-pic-title" },
-              "Book Blog"
+              'div',
+              { id: 'home-pic-title' },
+              'Book Blog'
             )
           ),
           React.createElement(
-            "div",
-            { className: "blog-post" },
+            'div',
+            { className: 'blog-post' },
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "Blog Post Three"
+              'Blog Post Three'
             ),
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "JavaScript Web Applications"
+              'JavaScript Web Applications'
             ),
             React.createElement(
-              "p",
+              'p',
               null,
-              "Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues."
+              'Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues.'
             ),
             React.createElement(
-              "p",
+              'p',
               null,
-              "Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience."
+              'Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience.'
             ),
             React.createElement(
-              "p",
-              { className: "blog-post-end" },
-              "Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification"
+              'p',
+              { className: 'blog-post-end' },
+              'Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification'
             )
           ),
           React.createElement(
-            "footer",
+            'footer',
             null,
             React.createElement(
-              "p",
+              'p',
               null,
-              "\xA9 copyright 2017 BOOK BLOG"
+              '\xA9 copyright 2017 BOOK BLOG'
             )
           )
         );
@@ -1059,7 +1075,7 @@ if (window.BlogTest === undefined) {
 
   BlogTest.BlogPostThreeComponent = BlogPostThreeComponent;
 })();
-"use strict";
+'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -1083,125 +1099,129 @@ if (window.BlogTest === undefined) {
     }
 
     _createClass(BlogPostFourComponent, [{
-      key: "render",
+      key: 'render',
       value: function render() {
         return React.createElement(
-          "div",
+          'div',
           null,
           React.createElement(
-            "header",
+            'header',
             null,
             React.createElement(
-              "div",
-              { id: "eyebrow-nav" },
+              'div',
+              { id: 'eyebrow-nav' },
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "About"
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/About' },
+                    'About'
+                  )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "My books"
+                  'My books'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/' },
-                    "Home"
+                    'Home'
                   )
                 )
               )
             ),
             React.createElement(
-              "div",
-              { id: "main-nav" },
-              React.createElement("div", { className: "logo" }),
+              'div',
+              { id: 'main-nav' },
+              React.createElement('div', { className: 'logo' }),
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "New releases"
+                  'New releases'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/PopularMain' },
-                    "Popular"
+                    'Popular'
                   )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Categories"
+                  'Categories'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Recent Posts"
+                  'Recent Posts'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Author Interviews"
+                  'Author Interviews'
                 )
               )
             )
           ),
           React.createElement(
-            "div",
-            { className: "other-pics tabs-img-4" },
+            'div',
+            { className: 'other-pics tabs-img-4' },
             React.createElement(
-              "div",
-              { id: "home-pic-title" },
-              "Book Blog"
+              'div',
+              { id: 'home-pic-title' },
+              'Book Blog'
             )
           ),
           React.createElement(
-            "div",
-            { className: "blog-post" },
+            'div',
+            { className: 'blog-post' },
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "Blog Post Four"
+              'Blog Post Four'
             ),
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "JavaScript Web Applications"
+              'JavaScript Web Applications'
             ),
             React.createElement(
-              "p",
+              'p',
               null,
-              "Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues."
+              'Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues.'
             ),
             React.createElement(
-              "p",
+              'p',
               null,
-              "Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience."
+              'Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience.'
             ),
             React.createElement(
-              "p",
-              { className: "blog-post-end" },
-              "Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification"
+              'p',
+              { className: 'blog-post-end' },
+              'Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification'
             )
           ),
           React.createElement(
-            "footer",
+            'footer',
             null,
             React.createElement(
-              "p",
+              'p',
               null,
-              "\xA9 copyright 2017 BOOK BLOG"
+              '\xA9 copyright 2017 BOOK BLOG'
             )
           )
         );
@@ -1213,7 +1233,7 @@ if (window.BlogTest === undefined) {
 
   BlogTest.BlogPostFourComponent = BlogPostFourComponent;
 })();
-"use strict";
+'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -1237,125 +1257,129 @@ if (window.BlogTest === undefined) {
     }
 
     _createClass(BlogPostFiveComponent, [{
-      key: "render",
+      key: 'render',
       value: function render() {
         return React.createElement(
-          "div",
+          'div',
           null,
           React.createElement(
-            "header",
+            'header',
             null,
             React.createElement(
-              "div",
-              { id: "eyebrow-nav" },
+              'div',
+              { id: 'eyebrow-nav' },
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "About"
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/About' },
+                    'About'
+                  )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "My books"
+                  'My books'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/' },
-                    "Home"
+                    'Home'
                   )
                 )
               )
             ),
             React.createElement(
-              "div",
-              { id: "main-nav" },
-              React.createElement("div", { className: "logo" }),
+              'div',
+              { id: 'main-nav' },
+              React.createElement('div', { className: 'logo' }),
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "New releases"
+                  'New releases'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/PopularMain' },
-                    "Popular"
+                    'Popular'
                   )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Categories"
+                  'Categories'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Recent Posts"
+                  'Recent Posts'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Author Interviews"
+                  'Author Interviews'
                 )
               )
             )
           ),
           React.createElement(
-            "div",
-            { className: "other-pics tabs-img-5" },
+            'div',
+            { className: 'other-pics tabs-img-5' },
             React.createElement(
-              "div",
-              { id: "home-pic-title" },
-              "Book Blog"
+              'div',
+              { id: 'home-pic-title' },
+              'Book Blog'
             )
           ),
           React.createElement(
-            "div",
-            { className: "blog-post" },
+            'div',
+            { className: 'blog-post' },
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "Blog Post Five"
+              'Blog Post Five'
             ),
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "JavaScript Web Applications"
+              'JavaScript Web Applications'
             ),
             React.createElement(
-              "p",
+              'p',
               null,
-              "Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues."
+              'Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues.'
             ),
             React.createElement(
-              "p",
+              'p',
               null,
-              "Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience."
+              'Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience.'
             ),
             React.createElement(
-              "p",
-              { className: "blog-post-end" },
-              "Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification"
+              'p',
+              { className: 'blog-post-end' },
+              'Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification'
             )
           ),
           React.createElement(
-            "footer",
+            'footer',
             null,
             React.createElement(
-              "p",
+              'p',
               null,
-              "\xA9 copyright 2017 BOOK BLOG"
+              '\xA9 copyright 2017 BOOK BLOG'
             )
           )
         );
@@ -1367,7 +1391,7 @@ if (window.BlogTest === undefined) {
 
   BlogTest.BlogPostFiveComponent = BlogPostFiveComponent;
 })();
-"use strict";
+'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -1391,125 +1415,129 @@ if (window.BlogTest === undefined) {
     }
 
     _createClass(BlogPostSixComponent, [{
-      key: "render",
+      key: 'render',
       value: function render() {
         return React.createElement(
-          "div",
+          'div',
           null,
           React.createElement(
-            "header",
+            'header',
             null,
             React.createElement(
-              "div",
-              { id: "eyebrow-nav" },
+              'div',
+              { id: 'eyebrow-nav' },
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "About"
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/About' },
+                    'About'
+                  )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "My books"
+                  'My books'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/' },
-                    "Home"
+                    'Home'
                   )
                 )
               )
             ),
             React.createElement(
-              "div",
-              { id: "main-nav" },
-              React.createElement("div", { className: "logo" }),
+              'div',
+              { id: 'main-nav' },
+              React.createElement('div', { className: 'logo' }),
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "New releases"
+                  'New releases'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/PopularMain' },
-                    "Popular"
+                    'Popular'
                   )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Categories"
+                  'Categories'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Recent Posts"
+                  'Recent Posts'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Author Interviews"
+                  'Author Interviews'
                 )
               )
             )
           ),
           React.createElement(
-            "div",
-            { className: "other-pics tabs-img-6" },
+            'div',
+            { className: 'other-pics tabs-img-6' },
             React.createElement(
-              "div",
-              { id: "home-pic-title" },
-              "Book Blog"
+              'div',
+              { id: 'home-pic-title' },
+              'Book Blog'
             )
           ),
           React.createElement(
-            "div",
-            { className: "blog-post" },
+            'div',
+            { className: 'blog-post' },
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "Blog Post Six"
+              'Blog Post Six'
             ),
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "JavaScript Web Applications"
+              'JavaScript Web Applications'
             ),
             React.createElement(
-              "p",
+              'p',
               null,
-              "Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues."
+              'Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side\u2014not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues.'
             ),
             React.createElement(
-              "p",
+              'p',
               null,
-              "Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience."
+              'Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience.'
             ),
             React.createElement(
-              "p",
-              { className: "blog-post-end" },
-              "Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification"
+              'p',
+              { className: 'blog-post-end' },
+              'Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application Get an introduction to templating and data binding Learn about loading remote data, Ajax, and cross-domain requests Create realtime applications with WebSockets and Node.js Accept dropped files and upload data with progress indicators Use major frameworks and libraries, including jQuery, Spine, and Backbone Write tests and use the console to debug your applications Get deployment best practices, such as caching and minification'
             )
           ),
           React.createElement(
-            "footer",
+            'footer',
             null,
             React.createElement(
-              "p",
+              'p',
               null,
-              "\xA9 copyright 2017 BOOK BLOG"
+              '\xA9 copyright 2017 BOOK BLOG'
             )
           )
         );
