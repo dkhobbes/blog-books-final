@@ -358,6 +358,18 @@ footer p {
   // font-weight: bold;
 }
 
+header a:link,
+header a:visited  {
+    text-decoration: none;
+    color: white;
+}
+
+#main-nav a:link,
+#main-nav a:visited {
+  text-decoration: none;
+  color: black;
+}
+
 @media only screen and (max-width: 1000px) {
   // .blog-pic-summary:hover {
   //   color: transparent;
