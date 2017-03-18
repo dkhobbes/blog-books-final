@@ -600,7 +600,136 @@ if (window.BlogTest === undefined) {
 
   BlogTest.ArchiveComponent = ArchiveComponent;
 })();
-"use strict";
+'use strict';
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+if (window.BlogTest === undefined) {
+  window.BlogTest = {};
+}
+(function () {
+  var AuthorComponent = function (_React$Component) {
+    _inherits(AuthorComponent, _React$Component);
+
+    function AuthorComponent() {
+      _classCallCheck(this, AuthorComponent);
+
+      return _possibleConstructorReturn(this, (AuthorComponent.__proto__ || Object.getPrototypeOf(AuthorComponent)).call(this));
+    }
+
+    _createClass(AuthorComponent, [{
+      key: 'render',
+      value: function render() {
+        return React.createElement(
+          'div',
+          null,
+          React.createElement(
+            'header',
+            null,
+            React.createElement(
+              'div',
+              { id: 'eyebrow-nav' },
+              React.createElement(
+                'ul',
+                null,
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/About' },
+                    'About'
+                  )
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  'My books'
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/' },
+                    'Home'
+                  )
+                )
+              )
+            ),
+            React.createElement(
+              'div',
+              { id: 'main-nav' },
+              React.createElement('div', { className: 'logo' }),
+              React.createElement(
+                'ul',
+                null,
+                React.createElement(
+                  'li',
+                  null,
+                  'New releases'
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/PopularMain' },
+                    'Popular'
+                  )
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  'Categories'
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  'Recent Posts'
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/Author' },
+                    'Author interviews'
+                  )
+                )
+              )
+            )
+          ),
+          React.createElement(
+            'div',
+            { id: 'archive-title' },
+            'Author interviews ...'
+          ),
+          React.createElement('div', { id: 'spacing' }),
+          React.createElement(
+            'footer',
+            { className: 'tenLinks' },
+            React.createElement(
+              'p',
+              null,
+              '\xA9 copyright 2017 BOOK BLOG'
+            )
+          )
+        );
+      }
+    }]);
+
+    return AuthorComponent;
+  }(React.Component);
+
+  BlogTest.AuthorComponent = AuthorComponent;
+})();
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
@@ -1549,8 +1678,141 @@ if (window.BlogTest === undefined) {
 
   BlogTest.BlogPostSixComponent = BlogPostSixComponent;
 })();
-"use strict";
-"use strict";
+'use strict';
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+if (window.BlogTest === undefined) {
+  window.BlogTest = {};
+}
+(function () {
+  var CategoriesComponent = function (_React$Component) {
+    _inherits(CategoriesComponent, _React$Component);
+
+    function CategoriesComponent() {
+      _classCallCheck(this, CategoriesComponent);
+
+      return _possibleConstructorReturn(this, (CategoriesComponent.__proto__ || Object.getPrototypeOf(CategoriesComponent)).call(this));
+    }
+
+    _createClass(CategoriesComponent, [{
+      key: 'render',
+      value: function render() {
+        return React.createElement(
+          'div',
+          null,
+          React.createElement(
+            'header',
+            null,
+            React.createElement(
+              'div',
+              { id: 'eyebrow-nav' },
+              React.createElement(
+                'ul',
+                null,
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/About' },
+                    'About'
+                  )
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  'My books'
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/' },
+                    'Home'
+                  )
+                )
+              )
+            ),
+            React.createElement(
+              'div',
+              { id: 'main-nav' },
+              React.createElement('div', { className: 'logo' }),
+              React.createElement(
+                'ul',
+                null,
+                React.createElement(
+                  'li',
+                  null,
+                  'New releases'
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/PopularMain' },
+                    'Popular'
+                  )
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/Categories' },
+                    'Categories'
+                  )
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  'Recent Posts'
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/Author' },
+                    'Author interviews'
+                  )
+                )
+              )
+            )
+          ),
+          React.createElement(
+            'div',
+            { id: 'archive-title' },
+            'Categories ...'
+          ),
+          React.createElement('div', { id: 'spacing' }),
+          React.createElement(
+            'footer',
+            { className: 'tenLinks' },
+            React.createElement(
+              'p',
+              null,
+              '\xA9 copyright 2017 BOOK BLOG'
+            )
+          )
+        );
+      }
+    }]);
+
+    return CategoriesComponent;
+  }(React.Component);
+
+  BlogTest.CategoriesComponent = CategoriesComponent;
+})();
+'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -1574,129 +1836,146 @@ if (window.BlogTest === undefined) {
     }
 
     _createClass(MainPageComponent, [{
-      key: "render",
+      key: 'render',
       value: function render() {
         return React.createElement(
-          "div",
+          'div',
           null,
           React.createElement(
-            "header",
+            'header',
             null,
             React.createElement(
-              "div",
-              { id: "eyebrow-nav" },
+              'div',
+              { id: 'eyebrow-nav' },
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/About' },
-                    "About"
+                    'About'
                   )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "My books"
+                  'My books'
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/' },
+                    'Home'
+                  )
                 )
               )
             ),
             React.createElement(
-              "div",
-              { id: "main-nav" },
-              React.createElement("div", { className: "logo" }),
+              'div',
+              { id: 'main-nav' },
+              React.createElement('div', { className: 'logo' }),
               React.createElement(
-                "ul",
+                'ul',
                 null,
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "New releases"
+                  'New releases'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
                   React.createElement(
                     ReactRouter.Link,
                     { to: '/PopularMain' },
-                    "Popular"
+                    'Popular'
                   )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Categories"
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/Categories' },
+                    'Categories'
+                  )
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Recent Posts"
+                  'Recent Posts'
                 ),
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "Author Interviews"
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/Author' },
+                    'Author interviews'
+                  )
                 )
               )
             )
           ),
           React.createElement(
-            "div",
-            { id: "home-pic" },
+            'div',
+            { id: 'home-pic' },
             React.createElement(
-              "div",
-              { id: "home-pic-title" },
-              "Book Blog"
+              'div',
+              { id: 'home-pic-title' },
+              'Book Blog'
             )
           ),
           React.createElement(
-            "section",
-            { id: "spacing" },
+            'section',
+            { id: 'spacing' },
             React.createElement(
-              "div",
-              { id: "intro-main" },
+              'div',
+              { id: 'intro-main' },
               React.createElement(
-                "h1",
+                'h1',
                 null,
-                "Welcome to the Book Review Blog"
+                'Welcome to the Book Review Blog'
               ),
               React.createElement(
-                "p",
+                'p',
                 null,
-                "Read the from the recent blog posts on some of the most interesting stories, and characters out there."
+                'Read the from the recent blog posts on some of the most interesting stories, and characters out there.'
               )
             )
           ),
           React.createElement(
-            "div",
-            { id: "read-title-main" },
+            'div',
+            { id: 'read-title-main' },
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "Blog Posts"
+              'Blog Posts'
             )
           ),
           React.createElement(
-            "section",
+            'section',
             null,
             React.createElement(
               ReactRouter.Link,
               { to: '/PostOne' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-one tabs-img-1" },
+                'div',
+                { className: 'tabs tabs-one tabs-img-1' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "one"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'one'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
@@ -1704,69 +1983,69 @@ if (window.BlogTest === undefined) {
               ReactRouter.Link,
               { to: '/PostTwo' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-img-2" },
+                'div',
+                { className: 'tabs tabs-img-2' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "two"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'two'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom tabs-one" },
+              'div',
+              { className: 'tabs-bottom tabs-one' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom" },
+              'div',
+              { className: 'tabs-bottom' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             )
           ),
           React.createElement(
-            "section",
+            'section',
             null,
             React.createElement(
               ReactRouter.Link,
               { to: '/PostThree' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-one tabs-img-3" },
+                'div',
+                { className: 'tabs tabs-one tabs-img-3' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "three"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'three'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
@@ -1774,69 +2053,69 @@ if (window.BlogTest === undefined) {
               ReactRouter.Link,
               { to: '/PostFour' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-img-4" },
+                'div',
+                { className: 'tabs tabs-img-4' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "four"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'four'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom tabs-one" },
+              'div',
+              { className: 'tabs-bottom tabs-one' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom" },
+              'div',
+              { className: 'tabs-bottom' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             )
           ),
           React.createElement(
-            "section",
+            'section',
             null,
             React.createElement(
               ReactRouter.Link,
               { to: '/PostFive' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-one tabs-img-5" },
+                'div',
+                { className: 'tabs tabs-one tabs-img-5' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "five"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'five'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
@@ -1844,130 +2123,130 @@ if (window.BlogTest === undefined) {
               ReactRouter.Link,
               { to: '/PostSix' },
               React.createElement(
-                "div",
-                { className: "tabs tabs-img-6" },
+                'div',
+                { className: 'tabs tabs-img-6' },
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-title" },
-                  "six"
+                  'div',
+                  { className: 'blog-pic-title' },
+                  'six'
                 ),
                 React.createElement(
-                  "div",
-                  { className: "blog-pic-summary" },
-                  "Building rich JavaScript applications that bring a desktop experience to the Web requires..."
+                  'div',
+                  { className: 'blog-pic-summary' },
+                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
                 )
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom tabs-one" },
+              'div',
+              { className: 'tabs-bottom tabs-one' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             ),
             React.createElement(
-              "div",
-              { className: "tabs-bottom" },
+              'div',
+              { className: 'tabs-bottom' },
               React.createElement(
-                "h1",
-                { className: "center-blog-info" },
-                "11/15/16 ",
+                'h1',
+                { className: 'center-blog-info' },
+                '11/15/16 ',
                 React.createElement(
-                  "span",
-                  { className: "white" },
-                  " | "
+                  'span',
+                  { className: 'white' },
+                  ' | '
                 ),
-                " Review of Javascript Web Applications"
+                ' Review of Javascript Web Applications'
               )
             )
           ),
           React.createElement(
-            "div",
-            { id: "read-more-main" },
+            'div',
+            { id: 'read-more-main' },
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "Read more coming soon ..."
+              'Read more coming soon ...'
             )
           ),
           React.createElement(
-            "div",
-            { id: "archive-main" },
+            'div',
+            { id: 'archive-main' },
             React.createElement(
-              "h1",
+              'h1',
               null,
-              "Archive"
+              'Archive'
             ),
             React.createElement(
-              "ul",
-              { id: "archive-main-list" },
+              'ul',
+              { id: 'archive-main-list' },
               React.createElement(
                 ReactRouter.Link,
                 { to: '/Archive' },
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "2017"
+                  '2017'
                 )
               ),
               React.createElement(
                 ReactRouter.Link,
                 { to: '/Archive' },
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "2016"
+                  '2016'
                 )
               ),
               React.createElement(
                 ReactRouter.Link,
                 { to: '/Archive' },
                 React.createElement(
-                  "li",
+                  'li',
                   null,
-                  "2015"
+                  '2015'
                 )
               )
             )
           ),
           React.createElement(
-            "div",
-            { id: "newsletter-main" },
+            'div',
+            { id: 'newsletter-main' },
             React.createElement(
-              "div",
+              'div',
               null,
               React.createElement(
-                "form",
+                'form',
                 null,
                 React.createElement(
-                  "h1",
+                  'h1',
                   null,
-                  "Get Newsletter"
+                  'Get Newsletter'
                 ),
-                React.createElement("input", { type: "text" }),
+                React.createElement('input', { type: 'text' }),
                 React.createElement(
-                  "button",
+                  'button',
                   null,
-                  "sign up"
+                  'sign up'
                 )
               )
             )
           ),
           React.createElement(
-            "footer",
+            'footer',
             null,
             React.createElement(
-              "p",
+              'p',
               null,
-              "\xA9 copyright 2017 BOOK BLOG"
+              '\xA9 copyright 2017 BOOK BLOG'
             )
           )
         );
@@ -1979,7 +2258,140 @@ if (window.BlogTest === undefined) {
 
   BlogTest.MainPageComponent = MainPageComponent;
 })();
-"use strict";
+'use strict';
+
+var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+if (window.BlogTest === undefined) {
+  window.BlogTest = {};
+}
+(function () {
+  var MyBooksComponent = function (_React$Component) {
+    _inherits(MyBooksComponent, _React$Component);
+
+    function MyBooksComponent() {
+      _classCallCheck(this, MyBooksComponent);
+
+      return _possibleConstructorReturn(this, (MyBooksComponent.__proto__ || Object.getPrototypeOf(MyBooksComponent)).call(this));
+    }
+
+    _createClass(MyBooksComponent, [{
+      key: 'render',
+      value: function render() {
+        return React.createElement(
+          'div',
+          null,
+          React.createElement(
+            'header',
+            null,
+            React.createElement(
+              'div',
+              { id: 'eyebrow-nav' },
+              React.createElement(
+                'ul',
+                null,
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/About' },
+                    'About'
+                  )
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  'My books'
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/' },
+                    'Home'
+                  )
+                )
+              )
+            ),
+            React.createElement(
+              'div',
+              { id: 'main-nav' },
+              React.createElement('div', { className: 'logo' }),
+              React.createElement(
+                'ul',
+                null,
+                React.createElement(
+                  'li',
+                  null,
+                  'New releases'
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/PopularMain' },
+                    'Popular'
+                  )
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/Categories' },
+                    'Categories'
+                  )
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  'Recent Posts'
+                ),
+                React.createElement(
+                  'li',
+                  null,
+                  React.createElement(
+                    ReactRouter.Link,
+                    { to: '/Author' },
+                    'Author interviews'
+                  )
+                )
+              )
+            )
+          ),
+          React.createElement(
+            'div',
+            { id: 'archive-title' },
+            'My Books ...'
+          ),
+          React.createElement('div', { id: 'spacing' }),
+          React.createElement(
+            'footer',
+            { className: 'tenLinks' },
+            React.createElement(
+              'p',
+              null,
+              '\xA9 copyright 2017 BOOK BLOG'
+            )
+          )
+        );
+      }
+    }]);
+
+    return MyBooksComponent;
+  }(React.Component);
+
+  BlogTest.MyBooksComponent = MyBooksComponent;
+})();
 "use strict";
 'use strict';
 
@@ -3667,7 +4079,9 @@ if (window.BlogTest === undefined) {
             React.createElement(Route, { path: "/PopularCommented", component: BlogTest.PopularCommentedComponent }),
             React.createElement(Route, { path: "/PopularViewed", component: BlogTest.PopularViewedComponent }),
             React.createElement(Route, { path: "/PopularMain", component: BlogTest.PopularMainComponent }),
-            React.createElement(Route, { path: "/About", component: BlogTest.AboutComponent })
+            React.createElement(Route, { path: "/About", component: BlogTest.AboutComponent }),
+            React.createElement(Route, { path: "/Author", component: BlogTest.AuthorComponent }),
+            React.createElement(Route, { path: "/Categories", component: BlogTest.CategoriesComponent })
       );
 
       ReactDOM.render(router, mountNode);

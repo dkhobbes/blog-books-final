@@ -21,6 +21,9 @@ var router = <Router history={ReactRouter.hashHistory}>
       <Route path="/PopularViewed" component={BlogTest.PopularViewedComponent} />
       <Route path="/PopularMain" component={BlogTest.PopularMainComponent} />
       <Route path="/About" component={BlogTest.AboutComponent} />
+      <Route path="/Author" component={BlogTest.AuthorComponent} />
+      <Route path="/Categories" component={BlogTest.CategoriesComponent} />
+
     </Router>;
 
 ReactDOM.render(router, mountNode);
