@@ -12,6 +12,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <ul>
             <li><ReactRouter.Link to={'/About'}>About</ReactRouter.Link></li>
             <li>My books</li>
+            <li><ReactRouter.Link to={'/'}>Home</ReactRouter.Link></li>
           </ul>
         </div>
         <div id="main-nav">
