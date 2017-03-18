@@ -25,8 +25,7 @@ var router = <Router history={ReactRouter.hashHistory}>
       <Route path="/Categories" component={BlogTest.CategoriesComponent} />
       <Route path="/MyBooks" component={BlogTest.MyBooksComponent} />
       <Route path="/NewReleases" component={BlogTest.NewReleasesComponent} />
-
-
+      <Route path="/RecentPosts" component={BlogTest.RecentPostsComponent} />
     </Router>;
 
 ReactDOM.render(router, mountNode);
