@@ -123,7 +123,7 @@ if (window.BlogTest === undefined) {
           React.createElement(
             'div',
             { id: 'archive-title' },
-            'About us ...'
+            'About us ... more information coming soon'
           ),
           React.createElement('div', { id: 'spacing' }),
           React.createElement(
@@ -765,7 +765,7 @@ if (window.BlogTest === undefined) {
           React.createElement(
             'div',
             { id: 'archive-title' },
-            'Author interviews ...'
+            'Author interviews ... more information coming soon'
           ),
           React.createElement('div', { id: 'spacing' }),
           React.createElement(
@@ -1979,7 +1979,7 @@ if (window.BlogTest === undefined) {
           React.createElement(
             'div',
             { id: 'archive-title' },
-            'Categories ...'
+            'Categories ... more information coming soon'
           ),
           React.createElement('div', { id: 'spacing' }),
           React.createElement(
@@ -2583,7 +2583,7 @@ if (window.BlogTest === undefined) {
           React.createElement(
             'div',
             { id: 'archive-title' },
-            'My Books ...'
+            'My Books ... more information coming soon'
           ),
           React.createElement('div', { id: 'spacing' }),
           React.createElement(
@@ -2729,7 +2729,7 @@ if (window.BlogTest === undefined) {
           React.createElement(
             'div',
             { id: 'archive-title' },
-            'New Releases ...'
+            'New Releases ... more information coming soon'
           ),
           React.createElement('div', { id: 'spacing' }),
           React.createElement(
@@ -4612,7 +4612,7 @@ if (window.BlogTest === undefined) {
           React.createElement(
             'div',
             { id: 'archive-title' },
-            'Recent Posts ...'
+            'Recent Posts ... more information coming soon'
           ),
           React.createElement('div', { id: 'spacing' }),
           React.createElement(

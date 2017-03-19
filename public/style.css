@@ -363,6 +363,9 @@ header a:visited {
   text-decoration: none;
   color: white; }
 
+header a:hover {
+  font-weight: bold; }
+
 #main-nav a:link,
 #main-nav a:visited {
   text-decoration: none;
