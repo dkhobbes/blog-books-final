@@ -26,7 +26,8 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </ul>
           </div>
         </header>
-        <div id="archive-title">About us ...</div>
+        <div id="archive-title">About us ... more information coming soon</div>
+
 
         <div id="spacing"></div>
 
