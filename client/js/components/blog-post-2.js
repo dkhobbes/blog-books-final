@@ -32,17 +32,8 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </div>
           <div className="blog-post">
             <h1>Blog Post Two</h1>
-            <h1>JavaScript Web Applications</h1>
-            <p>Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side—not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues.</p>
-            <p>Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience.</p>
-            <p className="blog-post-end">Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application
-            Get an introduction to templating and data binding
-            Learn about loading remote data, Ajax, and cross-domain requests
-            Create realtime applications with WebSockets and Node.js
-            Accept dropped files and upload data with progress indicators
-            Use major frameworks and libraries, including jQuery, Spine, and Backbone
-            Write tests and use the console to debug your applications
-            Get deployment best practices, such as caching and minification</p>
+            <h1>Web Form Design</h1>
+            <p className="blog-post-end">Forms make or break the most crucial online interactions: checkout, registration, and any task requiring information entry. In Web Form Design, Luke Wroblewski draws on original research, his considerable experience at Yahoo! and eBay, and the perspectives of many of the fields leading designers to show you everything you need to know about designing effective and engaging web forms.</p>
             </div>
 
           <footer>

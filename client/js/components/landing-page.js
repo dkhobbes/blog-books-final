@@ -50,14 +50,14 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           <ReactRouter.Link to={'/PostTwo'}>
             <div className="tabs tabs-img-2">
               <div className="blog-pic-title">two</div>
-              <div className="blog-pic-summary">Building rich JavaScript applications that bring a desktop experience to the Web requires...</div>
+              <div className="blog-pic-summary">Forms make or break the most...</div>
             </div>
           </ReactRouter.Link>
           <div className="tabs-bottom tabs-one">
             <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
           </div>
           <div className="tabs-bottom">
-            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Web Form Design</h1>
           </div>
         </section>
 
