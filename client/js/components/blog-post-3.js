@@ -32,17 +32,10 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
       </div>
       <div className="blog-post">
         <h1>Blog Post Three</h1>
-        <h1>JavaScript Web Applications</h1>
-        <p>Building rich JavaScript applications that bring a desktop experience to the Web requires moving state from the server to the client side—not a simple task. This hands-on book takes proficient JavaScript developers through all the steps necessary to create state-of-the-art applications, including structure, templating, frameworks, communicating with the server, and many other issues.</p>
-        <p>Throughout the book, you will work with real-world example applications to help you grasp the concepts involved. Learn how to create JavaScript applications that offer a more responsive and improved experience.</p>
-        <p className="blog-post-end">Use the Model-View-Controller (MVC) pattern, and learn how to manage dependencies inside your application
-        Get an introduction to templating and data binding
-        Learn about loading remote data, Ajax, and cross-domain requests
-        Create realtime applications with WebSockets and Node.js
-        Accept dropped files and upload data with progress indicators
-        Use major frameworks and libraries, including jQuery, Spine, and Backbone
-        Write tests and use the console to debug your applications
-        Get deployment best practices, such as caching and minification</p>
+        <h1>Pro Angular JS</h1>
+        <p>AngularJS is the leading framework for building dynamic JavaScript applications that take advantage of the capabilities of modern browsers and devices. AngularJS, which is maintained by Google, brings the power of the Model-View-Controller (MVC) pattern to the client, providing the foundation for complex and rich web apps. It allows you to build applications that are smaller, faster, and with a lighter resource footprint than ever before.</p>
+        <p>Best-selling author Adam Freeman explains how to get the most from AngularJS. He begins by describing the MVC pattern and the many benefits that can be gained from separating your logic and presentation code. He then shows how you can use AngularJSs features within in your projects to produce professional-quality results. Starting from the nuts-and-bolts and building up to the most advanced and sophisticated features AngularJS is carefully unwrapped, going in-depth to give you the knowledge you need.</p>
+        <p className="blog-post-end">Each topic is covered clearly and concisely and is packed with the details you need to learn to be truly effective. The most important features are given a no-nonsense in-depth treatment and chapters include common problems and details of how to avoid them.</p>
         </div>
 
       <footer>
