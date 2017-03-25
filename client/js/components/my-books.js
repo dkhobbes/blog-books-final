@@ -27,6 +27,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </div>
         </header>
         <div id="archive-title">My Books ... more information coming soon</div>
+        <p>Search from the Goodreads database for one of your favorite books.</p>
 
         <div id="spacing"></div>
 

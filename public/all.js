@@ -2575,6 +2575,11 @@ if (window.BlogTest === undefined) {
             { id: 'archive-title' },
             'My Books ... more information coming soon'
           ),
+          React.createElement(
+            'p',
+            null,
+            'Search from the Goodreads database for one of your favorite books.'
+          ),
           React.createElement('div', { id: 'spacing' }),
           React.createElement(
             'footer',
