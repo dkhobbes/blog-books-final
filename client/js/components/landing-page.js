@@ -78,7 +78,7 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
             <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Pro Angular JS</h1>
           </div>
           <div className="tabs-bottom">
-            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> Review of Javascript Web Applications</h1>
+            <h1 className="center-blog-info">11/15/16 <span className="white"> | </span> MongoDB in Action</h1>
           </div>
         </section>
 
