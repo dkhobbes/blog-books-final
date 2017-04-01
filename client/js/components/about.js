@@ -16,7 +16,8 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </ul>
         </div>
         <div id="main-nav">
-          <div className="logo"></div>
+          <ReactRouter.Link to={'/'}><div className="logo"></div></ReactRouter.Link>
+
           <ul>
           <li><ReactRouter.Link to={'/NewReleases'}>New Releases</ReactRouter.Link></li>
           <li><ReactRouter.Link to={'/PopularMain'}>Popular</ReactRouter.Link></li>
