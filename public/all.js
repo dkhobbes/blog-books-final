@@ -218,7 +218,11 @@ if (window.BlogTest === undefined) {
             React.createElement(
               'div',
               { id: 'main-nav' },
-              React.createElement('div', { className: 'logo' }),
+              React.createElement(
+                ReactRouter.Link,
+                { to: '/' },
+                React.createElement('div', { className: 'logo' })
+              ),
               React.createElement(
                 'ul',
                 null,
@@ -714,7 +718,11 @@ if (window.BlogTest === undefined) {
             React.createElement(
               'div',
               { id: 'main-nav' },
-              React.createElement('div', { className: 'logo' }),
+              React.createElement(
+                ReactRouter.Link,
+                { to: '/' },
+                React.createElement('div', { className: 'logo' })
+              ),
               React.createElement(
                 'ul',
                 null,
@@ -1573,7 +1581,11 @@ if (window.BlogTest === undefined) {
             React.createElement(
               'div',
               { id: 'main-nav' },
-              React.createElement('div', { className: 'logo' }),
+              React.createElement(
+                ReactRouter.Link,
+                { to: '/' },
+                React.createElement('div', { className: 'logo' })
+              ),
               React.createElement(
                 'ul',
                 null,
@@ -1751,7 +1763,11 @@ if (window.BlogTest === undefined) {
             React.createElement(
               'div',
               { id: 'main-nav' },
-              React.createElement('div', { className: 'logo' }),
+              React.createElement(
+                ReactRouter.Link,
+                { to: '/' },
+                React.createElement('div', { className: 'logo' })
+              ),
               React.createElement(
                 'ul',
                 null,
@@ -1929,7 +1945,11 @@ if (window.BlogTest === undefined) {
             React.createElement(
               'div',
               { id: 'main-nav' },
-              React.createElement('div', { className: 'logo' }),
+              React.createElement(
+                ReactRouter.Link,
+                { to: '/' },
+                React.createElement('div', { className: 'logo' })
+              ),
               React.createElement(
                 'ul',
                 null,
@@ -2075,7 +2095,11 @@ if (window.BlogTest === undefined) {
             React.createElement(
               'div',
               { id: 'main-nav' },
-              React.createElement('div', { className: 'logo' }),
+              React.createElement(
+                ReactRouter.Link,
+                { to: '/' },
+                React.createElement('div', { className: 'logo' })
+              ),
               React.createElement(
                 'ul',
                 null,
