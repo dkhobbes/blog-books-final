@@ -103,9 +103,9 @@ if (window.BlogTest === undefined) {window.BlogTest = {}; }
           </div>
         </section>
 
-        <div id="read-more-main">
-          <h1>Read more coming soon ...</h1>
-        </div>
+        // <div id="read-more-main">
+        //   <h1>Read more coming soon ...</h1>
+        // </div>
 
           <div id="archive-main">
             <h1>Archive</h1>
