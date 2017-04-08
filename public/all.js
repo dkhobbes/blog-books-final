@@ -2961,7 +2961,7 @@ if (window.BlogTest === undefined) {
                 React.createElement(
                   'div',
                   { className: 'blog-pic-summary' },
-                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
+                  'Forms make or break the most...'
                 )
               )
             ),
@@ -2992,7 +2992,7 @@ if (window.BlogTest === undefined) {
                   { className: 'white' },
                   ' | '
                 ),
-                ' Review of Javascript Web Applications'
+                ' Web Form Design'
               )
             )
           ),
@@ -3047,7 +3047,7 @@ if (window.BlogTest === undefined) {
                   { className: 'white' },
                   ' | '
                 ),
-                ' Review of Javascript Web Applications'
+                ' Pro Angular JS'
               )
             ),
             React.createElement(
@@ -3062,7 +3062,7 @@ if (window.BlogTest === undefined) {
                   { className: 'white' },
                   ' | '
                 ),
-                ' Review of Javascript Web Applications'
+                ' MongoDB in Action'
               )
             )
           ),
@@ -3714,7 +3714,7 @@ if (window.BlogTest === undefined) {
                 React.createElement(
                   'div',
                   { className: 'blog-pic-summary' },
-                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
+                  'Forms make or break the most...'
                 )
               )
             ),
@@ -3745,7 +3745,7 @@ if (window.BlogTest === undefined) {
                   { className: 'white' },
                   ' | '
                 ),
-                ' Review of Javascript Web Applications'
+                ' Web Form Design'
               )
             )
           ),
@@ -3800,7 +3800,7 @@ if (window.BlogTest === undefined) {
                   { className: 'white' },
                   ' | '
                 ),
-                ' Review of Javascript Web Applications'
+                ' Pro Angular JS'
               )
             ),
             React.createElement(
@@ -3815,7 +3815,7 @@ if (window.BlogTest === undefined) {
                   { className: 'white' },
                   ' | '
                 ),
-                ' Review of Javascript Web Applications'
+                ' MongoDB in Action'
               )
             )
           ),
@@ -4214,7 +4214,7 @@ if (window.BlogTest === undefined) {
                 React.createElement(
                   'div',
                   { className: 'blog-pic-summary' },
-                  'Building rich JavaScript applications that bring a desktop experience to the Web requires...'
+                  'Forms make or break the most...'
                 )
               )
             ),
@@ -4245,7 +4245,7 @@ if (window.BlogTest === undefined) {
                   { className: 'white' },
                   ' | '
                 ),
-                ' Review of Javascript Web Applications'
+                ' Web Form Design'
               )
             )
           ),
@@ -4300,7 +4300,7 @@ if (window.BlogTest === undefined) {
                   { className: 'white' },
                   ' | '
                 ),
-                ' Review of Javascript Web Applications'
+                ' Pro Angular JS'
               )
             ),
             React.createElement(
@@ -4315,7 +4315,7 @@ if (window.BlogTest === undefined) {
                   { className: 'white' },
                   ' | '
                 ),
-                ' Review of Javascript Web Applications'
+                ' MongoDB in Action'
               )
             )
           ),
